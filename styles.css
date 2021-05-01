@@ -1,0 +1,93 @@
+body {
+    height: 100%;
+    background-color: #f9dede;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+input {
+    outline: none;
+}
+
+.resp {
+    box-shadow: 0px 5px 5px gray;
+    border-radius: 5px;
+}
+
+.inftext {
+    width: 70%;
+    height: 20px;
+}
+
+.normal {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.aste {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    margin: 5px;
+    color: black;
+}
+
+h3 {
+    margin-bottom: -15px;
+}
+
+.pergunta {
+    margin-bottom: 50px;
+}
+
+.content {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.centeredpanel {
+    min-width: 250px;
+    width: 40%;
+    height: 95%;
+    background-color: #fff5f5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.detail {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #422d2d;
+}
+
+.button {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.8);
+    background: #523d3d;
+    font-weight: normal;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    transition: all 1.5s;
+}
+
+.next {
+    float: right;
+}
+
+.back {
+    float: left;
+}

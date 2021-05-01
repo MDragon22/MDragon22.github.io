@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FormSite</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body class="subpage1">
+
+    <div class="container">
+
+        <div class="centeredpanel">
+
+            <div class="detail">
+
+                <input type="button" class="button pressed back" value="back" id="bt" onclick="run2part(); window.location.href = 'index.html';">
+
+                <input type="button" class="button pressed next" value="next" id="bt" onclick="run2(); window.location.href = 'subpage2.html';">
+
+            </div>
+
+            <div class="content">
+
+                <div class="pergunta">
+
+                    <h3>Você sabe programar algum tipo de linguagem Front-end?<span class="aste">*</span></h3> <br />
+                    <form id="opt">
+
+                        <input type="radio" id="respradio" name="son" value="sim" onclick="run2();"> Sim
+                        <br />
+                        <input type="radio" id="respradio" name="son" value="não" onclick="run2();"> Não
+
+                    </form>
+
+                </div>
+
+                <div class="pergunta">
+
+                    <h3> <span id="vari"> </span> <br />
+                        <input type="hidden" id="opt1" placeholder="Sua resposta" class="resp inftext">
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+<script type="text/javascript" src="functions.js"></script>
+
+</html>
